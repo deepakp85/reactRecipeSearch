@@ -25,7 +25,7 @@ export default function Recipe(props) {
               <p className="card-text">
                 Energy in KCal - {Math.floor(recipe.recipe.totalNutrients.ENERC_KCAL.quantity)}
               </p>
-              <a href={recipe.recipe.url} target='_blank' rel="stylesheet" className="btn btn-success">
+              <a href={recipe.recipe.url}  rel="noreferrer" target='_blank' className="btn btn-success">
                 View Recipe
               </a>
             </div>
